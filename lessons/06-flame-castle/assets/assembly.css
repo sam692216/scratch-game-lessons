@@ -54,3 +54,27 @@ summary::-webkit-details-marker {display:none}
   .paper-ref[data-paper="4"] .paper-img{max-height:112mm}
   .paper-ref p{margin:2mm 0}
 }
+
+.showcase-video {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: .9rem;
+  background: var(--navy);
+}
+.sponsor-poster {
+  margin-inline: 0;
+  margin-bottom: 0;
+  max-width: 560px;
+}
+.sponsor-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: .6rem;
+  border: 1px solid var(--line);
+  border-radius: .9rem;
+}
